@@ -1,14 +1,17 @@
 <?php
-class homeController {
+class homeController extends controller {
 
     public function index(){
+        $dados = array(
+            'quantidade' => 5,
+            'nome' => 'Lucas'
+        );
 
-        echo 'Olá Mundo';
+        $this->loadTemplate('home', $dados);
+        
+
     }
 
-    public function teste(){
-        echo "Este é um teste";
-    }
-
+   
 
 }
