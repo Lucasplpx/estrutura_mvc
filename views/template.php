@@ -1,6 +1,8 @@
 <html>
 <head>
     <title>Meu site</title>
+    <link rel="stylesheet" href="<?php echo BASE_URL;?>assets/css/style.css">
+    <script src="<?php echo BASE_URL;?>assets/js/script.js"></script>
 </head>
 <body>
     <h1>Este é o topo</h1>
